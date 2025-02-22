@@ -9,8 +9,8 @@ api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=api_key)
 
 # Hardcoded credentials (store securely in production)
-user = "josh"
-password = "fomo"
+user = "mehdi"
+password = "mywordsai"
 
 # Login system
 def login():
